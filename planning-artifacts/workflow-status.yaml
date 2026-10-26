@@ -1,0 +1,23 @@
+project: New College Course Navigator
+level: 2
+last_updated: 2026-10-26
+
+phases:
+  analysis:
+    # Deliberately skipped: the graded SOW already does the product brief's job.
+    # See docs/bmad-decision-log.md entry 2.
+    product-brief: not-applicable
+    research: in-progress  # two Qualtrics surveys live 2026-10-26, 0 responses
+  planning:
+    prd: not-started       # required at level 2; seeded from SOW v1.0
+    tech-spec: not-applicable
+    ux-design: optional
+  solutioning:
+    # Level 2 default is "required". Overridden: the deliverable is a clickable
+    # mockup and infrastructure is explicitly out of scope.
+    # See docs/bmad-decision-log.md entry 3.
+    architecture: not-applicable
+    epics-stories: not-started  # BLOCKED pending user review of the PRD
+  implementation:
+    sprint-planning: not-started
+    current-sprint: null

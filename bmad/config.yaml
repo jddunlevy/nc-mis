@@ -1,0 +1,18 @@
+project_name: New College Course Navigator
+project_type: web-app
+project_level: 2
+user_name: Jaxon Dunlevy
+user_skill_level: intermediate
+communication_language: English
+document_output_language: English
+planning_artifacts: ./planning-artifacts
+implementation_artifacts: ./implementation-artifacts
+project_knowledge: ./docs
+
+# --- Course-context overrides (MIS 430 final project) ---
+# Final deliverable is an INTERACTIVE MOCKUP, not a running system.
+# Working AI is explicitly not required; no retrieval pipeline is being built.
+# BMAD artifacts (PRD, epics, stories) are INPUTS to the 11 graded
+# deliverables, not deliverables themselves. See docs/bmad-decision-log.md.
+delivery_target: interactive-mockup
+build_infrastructure: false
